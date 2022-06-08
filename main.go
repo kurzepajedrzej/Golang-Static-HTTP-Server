@@ -33,6 +33,6 @@ func main() {
 	// Listen for connections on all ip addresses (0.0.0.0)
 	// port 9090
 	log.Println("Starting Server")
-	err := http.ListenAndServe(":9090", nil)
+	err := http.ListenAndServe(":8000", nil)
 	log.Fatal(err)
 }
